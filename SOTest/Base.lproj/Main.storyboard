@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cDM-He-6fc">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cDM-He-6fc">
                                 <rect key="frame" x="8" y="323" width="398" height="250"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2u-4A-6ZE">
@@ -24,7 +24,7 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcV-75-S8f" userLabel="Separator view">
                                                 <rect key="frame" x="0.0" y="124.5" width="171.5" height="1"/>
-                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Cmw-By-4pr"/>
                                                 </constraints>
@@ -48,7 +48,7 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n02-j2-Qgr" userLabel="Separator view">
                                                 <rect key="frame" x="0.0" y="124.5" width="171.5" height="1"/>
-                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="0AR-tq-J1q"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="WnB-oU-zRC"/>
@@ -65,6 +65,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="Emo-SM-QN9"/>
+                                    <constraint firstItem="c2u-4A-6ZE" firstAttribute="width" secondItem="EVB-C9-MAn" secondAttribute="width" id="yXT-WW-R1F"/>
                                 </constraints>
                             </stackView>
                         </subviews>
